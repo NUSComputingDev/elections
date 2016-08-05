@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>NUS Students' Computing Club | 18th General Elections</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" />
+	<link rel="stylesheet" href="vendor/bootstrap-3.0.0-rc1/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<script src="vendor/jquery-1.10.2/jquery.js"></script>
+	<script src="vendor/jquery-smooth-scroll-1.4.11/jquery.smooth-scroll.js"></script>
+	<script src="vendor/bootstrap-3.0.0-rc1/dist/js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+
+</head>
+<body>
+
+	<div class="text-center" id="section-top">
+		<div id="top"></div>
+		<img src="img/compclub-logo.png" alt="NUS Students' Computing Club Logo" id="compclub-logo" />
+
+		<div id="elections-logo">
+			<p class="sixteenth">18th</p>
+			<p class="mc">Management Committee</p>
+			<p class="ge">General Elections</p>
+		</div>
+
+		<img src="img/divider.png" alt="Divider" class="divider" />
+
+		<p class="lead">
+			This General Elections will be bringing into office the <em>18<sup>th</sup>
+			Management Committee</em>.
+		</p>
+
+		<ul id="menu">
+			<li><a href="#link-nominees">About</a></li>
+			<li class="divider">&#9733;</li>
+			<li><a href="#link-running">Running</a></li>
+			<li class="divider">&#9733;</li>
+			<li><a href="#link-nominees">Nominees</a></li>
+			<li class="divider">&#9733;</li>
+			<li><a href="#link-documents">Documents</a></li>
+			<li class="divider">&#9733;</li>
+			<li><a href="#link-questions">Questions?</a></li>
+		</ul>
+	</div>
+
+	<div id="section-nominees" class="section">
+		<div class="container">
+			<h1 id="link-nominees">18th Management Committee Nominees</h1>
+			<p class="lead"></p>
+            
+            <!--
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Gay_Ming_Jian_Davis.jpg" alt="President" />
+					<!- - 	<img src="img/nominees.jpg" alt="" /> - ->
+						<div class="caption">
+							<h3>Gay Ming Jian Davis</h3>
+							<h4>
+								President<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Gay_Ming_Jian_Davis.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Simaria_Yesha_Bharat.jpg" alt="General Secretary" />
+						<div class="caption">
+							<h3>Simaria Yesha Bharat</h3>
+							<h4>
+								General Secretary<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Simaria_Yesha_Bharat.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Victor_Hazali.jpg" alt="Vice-President (Operations & Projects)" />
+						<div class="caption">
+							<h3>Victor Hazali</h3>
+							<h4>
+								Vice-President (Operations & Projects)<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Victor_Hazali.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Goh_Ser_Ming.jpg" alt="Vice-President (Human Resource & Development)" />
+						<div class="caption">
+							<h3>Goh Ser Ming</h3>
+							<h4>
+								Vice-President (Human Resource & Development)<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Goh_Ser_Ming.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Goh_Yuan_Tat.jpg" alt="General Secretary" />
+						<!- - <img src="img/nominees.jpg" alt="" /> - ->
+						<div class="caption">
+							<h3>Goh Yuan Tat</h3>
+							<h4>
+								Vice-President (External Relations)<br /><br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Goh_Yuan_Tat.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Hon_Guang_Yu_Jeremy.jpg" alt="Director of Finance" />
+						<div class="caption">
+							<h3>Hon Guang Yu, Jeremy</h3>
+							<h4>
+								Director of Finance<br /><br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Hon_Guang_Yu_Jeremy.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<!- - <img src="img/photos/Leonardo_Sjahputra.jpg" alt="Director of Freshmen Projects" /> - ->
+						<img src="img/nominees.jpg" alt="" />
+						<div class="caption">
+							<h3>Leonardo Sjahputra</h3>
+							<h4>Director of Freshmen Projects<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Leonardo_Sjahputra.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Chng_Hui_Yie.jpg" alt="Director of Marketing" />
+						<div class="caption">
+							<h3>Chng Hui Yie</h3>
+							<h4>Director of Marketing<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Chng_Hui_Yie.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Wu_Wenqi.jpg" alt="Director of Alumni Relations" />
+						<div class="caption">
+							<h3>Wu Wenqi</h3>
+							<h4>Director of Alumni Relations<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Wu_Wenqi.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<!- - <img src="img/photos/Tan_Teck_Zhi.jpg" alt="Director of Welfare" /> - ->
+						<img src="img/nominees.jpg" alt="" />
+						<div class="caption">
+							<h3>Tan Teck Zhi</h3>
+							<h4>Director of Welfare<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Tan_Teck_Zhi.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Huang_Feixue.jpg" alt="Director of Welfare" />
+						<div class="caption">
+						<h3>Huang Feixue</h3>
+							<h4>Director of Welfare<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Huang_Feixue.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Lee_Shean_Yin.jpg" alt="Director of Publicity" />
+						<div class="caption">
+							<h3>Lee Shean Yin (Jaslyn)</h3>
+							<h4>Director of Publicity<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Lee_Shean_Yin.jpg"" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Thenaesh_Elango.jpg" alt="Director of Academic Liaison" />
+						<div class="caption">
+							<h3>Thenaesh S/O N Elango</h3>
+							<h4>Director of Academic Liaison<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Thenaesh_Elango.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4">
+					<div class="thumbnail">
+						<img src="img/photos/Cheng_Boon_Yew_Joseph.jpg" alt="Director of Logistics" />
+						<div class="caption">
+							<h3>Cheng Boon Yew, Joseph</h3>
+							<h4>Director of Logistics<br />
+								<small>Computing</small>
+							</h4>
+							<p><a href="img/manifestos/Cheng_Boon_Yew_Joseph.jpg" class="btn btn-primary" target="_blank">Manifesto</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a href="#top">Back to Top</a>
+		</div>
+	</div>
+
+	<div id="section-about" class="section">
+		<div class="container">
+			<h1 id="link-about">About</h1>
+			<img src="img/mc-photo.jpg" alt="NUS Students' Computing Club" class="mc-photo img-responsive" />
+            -->
+			<p class="lead">Join the Team</p>
+
+			<p>
+				Have you participated in previous Computing Club activities, and 
+				experienced first hand the great synergy running through the organisers, 
+				as well as with the participants? Do you see great experience, potential 
+				and passion in yourself, which can be put into use to further the cause of
+				your fellow faculty-mates?
+				<p>
+
+					<p>
+						As students of SoC, we have reaped much benefits from the efforts of the 
+						previous Computing Club Management Committees. Heed the calling to 
+						contribute, to serve and to lead. Step up, present yourself to your fellow 
+						students, and take up the challenge in the <strong>NUS Students' Computing
+						Club 18<sup>th</sup> Management Committee</strong>.
+					</p>
+
+					<blockquote><strong>Did you know?</strong>
+						The Management Committee is officially part of the
+						<a href="http://www.comp.nus.edu.sg/undergraduates/beyond_slp.html" target="_blank">
+							SoC Student Leadership Programme</a>. Joining the Management Committee
+							accords you service hours under the programme.
+						</blockquote>
+
+						<p class="lead">Positions to be Filled</p>
+
+						<p>
+                        <!--
+							<a href="files/17th_mc_structure.pdf">
+								<img src="img/mc-structure-thumb.png" alt="Management Committee Structure" class="mc-structure-thumb img-responsive" />
+                            </a>-->
+                            <a href="files/18th_mc_structure.pdf">
+                                <img src="img/18th_mc_structure-1.png" alt="Management Committee Structure" class="mc-structure-thumb img-responsive" />
+                            </a>
+                            <!--
+                            <a href="files/18th_mc_structure.pdf">
+                                <img src="img/18th_mc_structure-2.png" alt="Management Committee Structure 2" class="mc-structure-thumb img-responsive" />
+                            </a>-->
+						</p>
+
+						<p>
+							The Election sees to placing the most suitable candidates into the
+							following positions:
+						</p>
+
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th style="width: 400px;">Position</th>
+									<th style="width: 250px;">Name of Current Office Holder</th>
+									<th>Contact Details</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1. President</td>
+									<td>Gay Ming Jian Davis</td>
+									<td>
+										Phone: 9678 7433
+										<br>
+										Email: <a href="mailto:president@nuscomputing.com" target="_top">president@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>2. Vice-President (External Relations)</td>
+									<td>Goh Yuan Tat (Silfer)</td>
+									<td>
+										Phone: 9639 9594
+										<br>
+										Email: <a href="mailto:vp.extrel@nuscomputing.com" target="_top">vp.extrel@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>3. Vice-President (Operations &amp; Projects)</td>
+									<td>Victor Hazali</td>
+									<td>
+										Phone: 9737 8893
+										<br>
+										Email: <a href="mailto:vp.ops@nuscomputing.com" target="_top">vp.ops@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>4. Vice-President (Human Resource &amp; Student Development)</td>
+									<td>Goh Ser Ming</td>
+									<td>
+										Phone: 9634 3613
+										<br>
+										Email: <a href="mailto:vp.hrd@nuscomputing.com" target="_top">vp.hrd@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">5. General Secretary</td>
+									<td>Simaria Yesha Bharat</td>
+									<td>
+										Phone: 8648 4264
+										<br>
+										Email: <a href="mailto:secretariat@nuscomputing.com" target="_top">secretariat@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Li Jia'En, Nicholette</td>
+									<td>
+										Phone: 9437 5920
+										<br>
+										Email: <a href="mailto:secretariat@nuscomputing.com" target="_top">secretariat@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">6. Finance Secretary</td>
+									<td>Hon Guang Yu Jeremy</td>
+									<td>
+										Phone: 9670 0794
+										<br>
+										Email: <a href="mailto:finance@nuscomputing.com" target="_top">finance@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Chee Wai Hon</td>
+									<td>
+										Phone: 8198 7421
+										<br>
+										Email: <a href="mailto:finance@nuscomputing.com" target="_top">finance@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>7. Student Relations Secretary</td>
+									<td>Simaria Yesha Bharat</td>
+									<td>
+										Phone: 8648 4264
+										<br>
+										Email: <a href="mailto:secretariat@nuscomputing.com" target="_top">secretariat@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">8. Director of Marketing</td>
+									<td>Chng Hui Yie</td>
+									<td>
+										Phone: 8282 4697
+										<br>
+										Email: <a href="mailto:marketing@nuscomputing.com" target="_top">marketing@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Daren Leong</td>
+									<td>
+										Phone: 8127 5538
+										<br>
+										Email: <a href="mailto:marketing@nuscomputing.com" target="_top">marketing@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">9. Director of Publicity</td>
+									<td>Lee Shean Yin (Jaslyn)</td>
+									<td>
+										Phone: 8448 8815
+										<br>
+										Email: <a href="mailto:publicity@nuscomputing.com" target="_top">publicity@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Tang Kai Ling</td>
+									<td>
+										Phone: 9633 7653
+										<br>
+										Email: <a href="mailto:publicity@nuscomputing.com" target="_top">publicity@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">10. Director of Alumni Relations</td>
+									<td>Wu Wenqi</td>
+									<td>
+										Phone: 9824 9971
+										<br>
+										Email: <a href="mailto:alumnirelations@nuscomputing.com" target="_top">alumnirelations@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Lim Si Yi</td>
+									<td>
+										Phone: 8608 2336
+										<br>
+										Email: <a href="mailto:alumnirelations@nuscomputing.com" target="_top">alumnirelations@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">11. Director of Logistics</td>
+									<td>Cheng Boon Yew, Joseph</td>
+									<td>
+										Phone: 9615 5540
+										<br>
+										Email: <a href="mailto:logistics@nuscomputing.com" target="_top">logistics@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Terence Lim Jun Chai</td>
+									<td>
+										Phone: 8127 5109
+										<br>
+										Email: <a href="mailto:logistics@nuscomputing.com" target="_top">logistics@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">12. Director of Information Technology</td>
+									<td>Nguyen Thanh Nhan</td>
+									<td>
+										Phone: 8284 4697
+										<br>
+										Email: <a href="mailto:infotech@nuscomputing.com" target="_top">infotech@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Abdul Haliq S/O Abdul Latiff</td>
+									<td>
+										Phone: 9386 6118
+										<br>
+										Email: <a href="mailto:infotech@nuscomputing.com" target="_top">infotech@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">13. Director of Freshmen Orientation Projects</td>
+									<td>Leonardo Sjahputra</td>
+									<td>
+										Phone: 8162 6591
+										<br>
+										Email: <a href="mailto:fop@nuscomputing.com" target="_top">fop@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Teo Hui Wen</td>
+									<td>
+										Phone: 9818 6903
+										<br>
+										Email: <a href="mailto:fop@nuscomputing.com" target="_top">fop@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">14. Director of Welfare</td>
+									<td>Huang Feixue</td>
+									<td>
+										Phone: 9236 7862
+										<br>
+										Email: <a href="mailto:welfare@nuscomputing.com" target="_top">welfare@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Tan Teck Zhi (Edward)</td>
+									<td>
+										Phone: 8198 1949
+										<br>
+										Email: <a href="mailto:welfare@nuscomputing.com" target="_top">welfare@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>15. Director of Sports</td>
+									<td>Tan Yongming</td>
+									<td>
+										Phone: 9001 8393
+										<br>
+										Email: <a href="mailto:sports@nuscomputing.com" target="_top">sports@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td rowspan="2">16. Director of Academic Liaison</td>
+									<td>Thenaesh S/O N Elango</td>
+									<td>
+										Phone: 8668 1505
+										<br>
+										Email: <a href="mailto:acad@nuscomputing.com" target="_top">acad@nuscomputing.com</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Ng Si Kai</td>
+									<td>
+										Phone: 9831 0024
+										<br>
+										Email: <a href="mailto:acad@nuscomputing.com" target="_top">acad@nuscomputing.com</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+                        <p>Please approach any of our current office holders for any inquiries specific to their position.</p>
+						<!--	
+						<ol>
+							<li>President</li>
+							<li>Vice-President (External Relations)</li>
+							<li>Vice-President (Operations &amp; Projects)</li>
+							<li>Vice-President (Human Resource &amp; Student Development)</li>
+							<li>General Secretary</li>
+							<li>Finance Secretary</li>
+							<li>Student Relations Secretary</li>
+							<li>Director of Marketing</li>
+							<li>Director of Publicity</li>
+							<li>Director of Alumni Relations</li>
+							<li>Director of Logistics</li>
+							<li>Director of Information Technology</li>
+							<li>Director of Freshmen Orientation Projects</li>
+							<li>Director of Welfare</li>
+							<li>Director of Sports</li>
+							<li>Director of Academic Liaison</li>
+						</ol>
+						-->
+
+						<a href="#top">Back to Top</a>
+					</div>
+				</div>
+
+				<div id="section-running" class="section">
+					<div class="container">
+						<h1 id="link-running">Running</h1>
+
+						<p class="lead">Elections Overview</p>
+
+						<p>
+							This is an overview of the elections process, along with important dates.
+						</p>
+<!--
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th style="width: 200px;">Date</th>
+          <th style="width: 150px;">Activity</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>August 2014</td>
+          <td>To Be Announced</td>
+          <td>To Be Announced</td>
+        </tr>
+      </tbody>
+    </table>
+-->
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th style="width: 200px;">Date</th>
+			<th style="width: 150px;">Activity</th>
+			<th>Details</th>
+		</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td>12th August 2015 (Wed)<br/>13th August 2015 (Thu)<br/></td>
+            <td>Information Session</td>
+            <td>Venue: Cerebro@SoC (COM1-02-05)<br>Time: 12:00pm to 01:00pm, 05:00pm to 06:00pm</td>
+        </tr>
+		<tr>
+            <td>12th August 2015 (Wed) <br />13th August 2015 (Thu)<br />14th August 2015 (Fri)<br />17th August 2015(Mon)<br /> </td>
+			<td>Nominations</td>
+			<td>Venue: outside computing club room (COM1-02-14) and outside Student Lounge</td>
+		</tr>
+		<tr>
+			<td>18th August 2015 (Tue)<br />19th August 2015 (Wed)<br />20th August 2015 (Thu)<br/>21st August 2015 (Fri)</td>
+			<td>Interviews</td>
+			<td>More details will be announced to nominees</td>
+		</tr>
+		<tr>
+			<td>25th August 2015 (Tue)</td>
+			<td>Annual General Meeting (AGM)</td>
+			<td>
+				<ul>
+					<li>Venue: Seminar Room 1 (COM1-02-06)</li>
+					<li>Time: 1800 - 2200</li>
+					<li>Note: First campaigning speech by nominees, Q &amp; A for each
+						nominee</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>24th August 2015 (Mon) <br /> 25th August 2015 (Tue)<br /> 26th August 2015 (Wed)<br />27th August 2015 (Thu)<br />28th August 2015 (Fri) </td>
+                <td>Campaigning</td>
+				<td>
+					<ul>
+						<li>Nominees required to submit all campaign materials for vetting,
+							either during the Annual General Meeting, or at any time with 
+							the Elections Officer</li>
+							<li>Refer to Clause 5 of the 
+                                <a href="files/ESO.pdf">Election Standing Orders</a>.
+							</li>
+						</ul>
+					</td>
+				</tr>
+                <!--
+				<tr>
+					<td>3rd September 2014 (Wed) <br /> 4th September 2014 (Thu)</td>
+					<td>Polling</td>
+					<td>
+						<ul>
+							<li>More details to be announced.</li>
+<!- -
+              <li>Venue: Students' Lounge (COM1-02-21)</li>
+              <li>Time: 1000 - 1800</li>
+              <li>Results will be released by 2300 on the same day.</li>
+          - ->
+      </ul>
+  </td>
+</tr>-->
+                <tr>
+                    <td>
+                        26th August 2015 (Wed)<br/>
+                        27th August 2015 (Thu)<br/>
+                        28th August 2015 (Fri)
+                    </td>
+                    <td>
+                        Polling
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Time: 10:00am to 06:00pm</li>
+                            <li>Venue: Student Lounge</li>
+                        </ul>
+                    </td>
+                </tr>
+</tbody>
+</table>
+
+
+<h2>Nominations Process</h2>
+
+<p>
+	Interested members who wish to run for the election need to complete and 
+	submit a set of nomination forms. Please fill up both Form A and Form B
+    (can be found below) and submit them to either the box outside Computing 
+    Club Room (COM1-02-14) or outside Student Lounge at COM1 Foyer from 10am 
+    to 6pm.
+    <!--Please take note of the nomination 
+    details below carefully.-->
+</p>
+
+<blockquote>
+	Only <em>full-time matriculated undergraduates</em> of the School of
+	Computing are eligible to <strong>stand for election</strong>, <strong>
+	propose</strong> or <strong>second</strong> a candidate,
+	and <strong>vote</strong> at the ballots.
+</blockquote>
+<!--
+<ol>
+	<li>
+		Download required documents. The required documents are 
+		<a href="files/appendix_a.pdf">Appendix A (Nominee Application Form)</a> and
+		<a href="files/appendix_b.pdf">Appendix B (Nominee Agreement)</a>.
+	</li>
+	<li>
+		<strong>Print</strong> the Forms. No softcopy is accepted.
+	</li>
+	<li>
+		Complete Appendix A (Nominee Application Form).
+		<ol>
+			<li>Fill in the nominee's name, matriculation number, contact number and 
+				email address.</li>
+				<li>Affix a <strong>passport-sized photograph</strong> of the nominee.</li>
+				<li>Look for a <strong>Proposer</strong> and <strong>Seconder</strong>
+					and get them to fill in their details. <br />The requirements for Proposer
+					and Seconder are outlined in Clause 3.2 of the Election Standing Order.</li>
+					<li>Make a <strong>photocopy of the nominee's matriculation card, Proposer's
+						matriculation card and Seconder's matriculation card.</strong></li>
+						<li>Sign the Form.</li>
+					</ol>
+				</li>
+				<li>
+					Complete Appendix B (Nominee Agreement).
+					<ol>
+						<li>Fill in your name and matriculation number.</li>
+						<li>Declare possible conflict of interest.</li>
+						<li>Declare commitments.</li>
+						<li>Declare your intent.</li>
+						<li>Sign the Form.</li>
+					</ol>
+				</li>
+				<li>
+					Staple all the documents together.
+				</li>
+				<li>
+					Drop all the documents into the Nominee Box located outside <strong>
+					Computing Club Room (COM1-02-14)</strong> or <strong>
+					Students' Lounge (COM1-02-21)</strong>.
+				</li>
+			</ol>
+-->
+			<h2>Interview Process</h2>
+
+			<p>
+				All nominees will be interviewed by a panel consisting of Computing Club 
+				Advisors, and members of the outgoing Management Committee.
+			</p>
+
+			<blockquote>
+				Nominees will be notified of their interview timeslots via <strong>
+				phone call</strong> and/or <strong>email</strong>.
+			</blockquote>
+
+			<h2>Campaigning Process</h2>
+
+			<p>
+				Campaign information will be disseminated to all nominees. Nominees are
+				to check their emails for instructions.
+			</p>
+
+			<h2>Polling Process</h2>
+
+			<blockquote><strong>The <em>Direct Elections</em> system is used</strong>.
+				That is, nominees will run directly for a specific position. All nominees
+				must obtain the approval of no less than <strong>75%</strong> of the valid votes cast for the nominee. In the 
+				event of a contested vote, the nominee who receives the highest number of net yes votes gets elected to the position."
+			</blockquote>
+
+			<p>
+				The venue for polling will be the Student Lounge. 
+			</p>
+
+            <!--
+			<p>
+				Information about proxy voting will be released soon.
+			</p>
+            -->
+
+			<a href="#top">Back to Top</a>
+		</div>
+	</div>
+
+	<div id="section-documents" class="section">
+		<div class="container">
+			<h1 id="link-documents">Documents</h1>
+			<p class="lead">Everything that is needed is here!</p>
+
+			<ul>
+                <!--
+				<li><a href="files/appendix_a.pdf">Appendix A (Nominee Application Form)</a></li>
+				<li><a href="files/appendix_b.pdf">Appendix B (Nominee Agreement)</a></li>
+                -->
+                <li><a href="files/Constitution_Final_Draft.pdf">Computing Club Constitution</a></li>
+				<li><a href="files/ESO.pdf">Computing Club Election Standing Orders</a></li>
+                <li><a href="files/NomineeApplication_FormA.docx">Nominee Application (Form A)</a></li>
+                <li><a href="files/NomineeAgreement_FormB.docx">Nominee Agreement (Form B)</a></li>
+				<!--
+                <li><a href="files/17th_mc_structure.pdf">Computing Club 17th Management Committee Structure</a></li>
+				       <li><a href="files/nussu_exco_elections_form_2013.docx">NUSSU EXCO Elections Form</a></li> -->
+			</ul>
+
+			<a href="#top">Back to Top</a>
+		</div>
+	</div>
+
+	<div id="section-questions" class="section">
+		<div class="container">
+			<h1 id="link-questions">Questions?</h1>
+			<p class="lead">
+				Just drop the Elections Committee an email at <a href="mailto:elections@nuscomputing.com">
+				elections@nuscomputing.com</a>.
+			</p>
+
+			<p>Personnel in charge:</p>
+            <p><i>Returning Officer: Jeannel Mah<br>Elections Officers: Matthew Tan, Raymond Cheng</i></p>
+            <!--
+			<ul>
+				<li><strong>Returning Officer:</strong> Wong Yong Jie</li>
+				<li><strong>Election Officer:</strong> Chiong Yao Sheng Eugene</li>
+				<li><strong>Election Officer:</strong> Mah Yu Ting, Jeannel</li>
+			</ul>
+            -->
+			<p>Information on this page is subject to change.</p>
+            <p><i> last edited on: 11th August 2015</i></p>
+			<a href="#top">Back to Top</a>
+		</div>
+	</div>
+
+</body>
+</html>
