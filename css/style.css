@@ -229,4 +229,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media(max-width: 768px) {
+  #menu li.divider {
+    display: none; 
+  }
+}
+
+@media(min-width: 769px) {
+  #menu li.divider {
+    display: inline; 
+  }
+}
+
 /* vim: set et ts=2 sw=2: */
