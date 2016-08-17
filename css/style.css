@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 0;
 }
 
+#compclub-logo {
+  width: 100%;
+  max-width: 800px;
+}
+
 #elections-logo {
   margin-top: 30px;
   text-transform: uppercase;
@@ -166,6 +171,40 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
+}
+
+#link-nominees {
+  text-align: center; 
+  font-weight: 700;
+}
+
+.thumbnail {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.thumbnail > img {
+  width: 100%; 
+  height: 100%; 
+  max-width: 250px; 
+  max-height: 320px; 
+  display: block; 
+  margin: 0 auto;
+}
+
+.nominee-wing {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.nominee-name {
+  display: block; 
+  text-align: center;
+}
+
+.nominee-position {
+  display: block;
+  text-align: center;
 }
 
 #section-nominees .thumbnail {
