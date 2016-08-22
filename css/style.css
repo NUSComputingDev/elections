@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 200px) and (min-width: 200px) {
+@media (max-width: 300px) and (min-width: 200px) {
   #section-nominees .thumbnail > img {
     max-width: 200px;
     max-height: 200px;
