@@ -179,15 +179,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .thumbnail {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .thumbnail > img {
   width: 100%; 
   height: 100%; 
-  max-width: 250px; 
-  max-height: 320px; 
+  max-width: 480px; 
+  max-height: 480px; 
   display: block; 
   margin: 0 auto;
 }
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-nominees .thumbnail {
-    height: 55.5rem;
+    height: 50rem;
 }
 
 #section-documents {
@@ -220,10 +220,40 @@ h1, h2, h3, h4, h5, h6 {
   color: #fafafa;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   #section-nominees .thumbnail > img {
-    width: 360px;
-    height: 360px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+  #section-nominees .thumbnail > img {
+    max-width: 275px;
+    max-height: 275px;
+  }
+  #section-nominees .thumbnail {
+      height: 45rem;
+  }
+}
+
+@media (max-width: 766px) {
+  #section-nominees .thumbnail {
+      height: auto;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 300px) {
+  #section-nominees .thumbnail > img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 200px) and (min-width: 200px) {
+  #section-nominees .thumbnail > img {
+    max-width: 200px;
+    max-height: 200px;
   }
 }
 
