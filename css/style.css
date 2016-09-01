@@ -45,14 +45,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20em;
   font-weight: 700;
   line-height: 0.85em;
-  color: #be1f1f;
+  color: #228b22;
 }
 
 #elections-logo .number {
   font-size: 20em;
   font-weight: 700;
   line-height: 0.85em;
-  color: #be1f1f;
+  color: #663399;
 }
 
 #elections-logo .mc {
@@ -82,12 +82,12 @@ h1, h2, h3, h4, h5, h6 {
 #menu li {
   float: left;
   display: inline-block;
-  color: #be1f1f;
+  color: #663399;
 }
 
 #menu li a:link,
 #menu li a:visited {
-  color: #be1f1f;
+  color: #663399;
 }
 
 #menu li a:hover {
