@@ -16,9 +16,22 @@
 		<script src="vendor/jquery-smooth-scroll-1.4.11/jquery.smooth-scroll.js"></script>
 		<script src="vendor/bootstrap-3.0.0-rc1/dist/js/bootstrap.js"></script>
 		<script src="js/main.js"></script>
+		<!-- Facebook Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+		fbq('init', '653597424790605');
+		fbq('track', "PageView");
+		</script>
+		
+		<!-- End Facebook Pixel Code -->
 	</head>
 	<body>
-
+		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=653597424790605&ev=PageView&noscript=1"/></noscript>
 		<div class="text-center" id="section-top">
 			<div id="top"></div>
 
@@ -531,5 +544,6 @@
 				<a href="#top">Back to Top</a>
 			</div>
 		</div>
+		<script>fbq('track', 'ViewContent');</script>
 	</body>
 </html>
