@@ -1,5 +1,5 @@
 # Elections Static Website
-NUS Students' Computing Club Elections Website
+[NUS Students' Computing Club Elections Website](http://nuscomputing.com)
 
 ## Set Up For Testing
 You may want to install npm module static to serve these files on localhost
