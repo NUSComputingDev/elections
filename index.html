@@ -1,590 +1,660 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>
-			NUS Students' Computing Club | 20th General Elections
-		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>NUS Students' Computing Club | 20th General Elections</title>
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" />
-		<link rel="stylesheet" href="vendor/bootstrap-3.0.0-rc1/dist/css/bootstrap.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/timeline.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<script src="vendor/jquery-1.10.2/jquery.js"></script>
-		<script src="vendor/jquery-smooth-scroll-1.4.11/jquery.smooth-scroll.js"></script>
-		<script src="vendor/bootstrap-3.0.0-rc1/dist/js/bootstrap.js"></script>
-		<script src="js/main.js"></script>
-		<!-- Facebook Pixel Code -->
-		<script>
-		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" />
+  <link rel="stylesheet" href="vendor/bootstrap-3.0.0-rc1/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
 
-		fbq('init', '653597424790605');
-		fbq('track', "PageView");
-		</script>
-		<!-- End Facebook Pixel Code -->
-	</head>
-	<body>
-		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=653597424790605&ev=PageView&noscript=1"/></noscript>
-		<div class="text-center" id="section-top">
-			<div id="top"></div>
+  <script src="vendor/jquery-1.10.2/jquery.js"></script>
+  <script src="vendor/jquery-smooth-scroll-1.4.11/jquery.smooth-scroll.js"></script>
+  <script src="vendor/bootstrap-3.0.0-rc1/dist/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
 
-			<img src="img/compclub-logo.png" alt="NUS Students' Computing Club Logo" id="compclub-logo" />
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-			<div id="elections-logo">
-				<p class="number">20th</p>
-				<p class="mc">Management Committee</p>
-				<p class="ge">General Elections</p>
-			</div>
+  fbq('init', '653597424790605');
+  fbq('track', "PageView");
+  </script>
+  <!-- End Facebook Pixel Code -->
+</head>
+<body>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=653597424790605&ev=PageView&noscript=1"/></noscript>
+  <div class="text-center" id="section-top">
+    <div id="top"></div>
 
-			<img src="img/divider.png" alt="Divider" class="divider" />
+    <img src="img/compclub-logo.png" alt="NUS Students' Computing Club Logo" id="compclub-logo" />
 
-			<p class="lead">
-				This General Elections will be bringing into office the <em>20<sup>th</sup> Management Committee</em>.
-			</p>
-			<!-- <p class="lead">
-				This By-Elections will be bringing into office the <em>20<sup>th</sup> Management Committee</em>.
-			</p> -->
+    <div id="elections-logo">
+      <p class="number">20th</p>
+      <p class="mc">Management Committee</p>
+      <p class="ge">General Elections</p>
+    </div>
 
-			<ul id="menu">
-				<li><a href="#link-about" style="">About</a></li>
-				<li class="divider" style=""> | </li>
-				<li><a href="#link-running" style="">Timeline</a></li>
-				<li class="divider" style=""> | </li>
-				<li><a href="#link-nominees" style="">Nominees</a></li>
-				<li class="divider" style=""> | </li>
-				<li><a href="#link-documents" style="">Documents</a></li>
-				<li class="divider" style=""> | </li>
-				<li><a href="#link-questions" style="">Questions?</a></li>
-			</ul>
-		</div>
-		<div id="section-about" class="section">
-			<div class="container">
-				<h1 id="link-about">About</h1>
-				<div class="">
-					<img src="img/mc-photo.jpg" alt="NUS Students' Computing Club" class="mc-photo img-responsive hidden-sm hidden-xs" />
-				</div>
-				<p class="lead">Join the Team</p>
+    <img src="img/divider.png" alt="Divider" class="divider" />
 
-				<p>
-					Have you participated in previous Computing Club activities, and 
-					experienced first hand the great synergy running through the organisers, 
-					as well as with the participants? Do you see great experience, potential 
-					and passion in yourself, which can be put into use to further the cause of
-					your fellow faculty-mates?
-				<p>
+    <p class="lead">
+      This General Elections will be bringing into office the <em>20<sup>th</sup> Management Committee</em>.
+    </p>
+    <!-- <p class="lead">
+      This By-Elections will be bringing into office the <em>20<sup>th</sup> Management Committee</em>.
+    </p> -->
 
-				<p>
-					As students of SoC, we have reaped much benefits from the efforts of the 
-					previous Computing Club Management Committees. Heed the calling to 
-					contribute, to serve and to lead. Step up, present yourself to your fellow 
-					students, and take up the challenge as the 
-					<strong>NUS Students' Computing Club 20<sup>th</sup> Management Committee</strong>.
-				</p>
+    <ul id="menu">
+      <li><a href="#link-about" style="">About</a></li>
+      <li class="divider" style=""> | </li>
+      <li><a href="#link-running" style="">Timeline</a></li>
+      <li class="divider" style=""> | </li>
+      <li><a href="#link-nominees" style="">Nominees</a></li>
+      <li class="divider" style=""> | </li>
+      <li><a href="#link-documents" style="">Documents</a></li>
+      <li class="divider" style=""> | </li>
+      <li><a href="#link-questions" style="">Questions?</a></li>
+    </ul>
+  </div>
+  <div id="section-about" class="section">
+    <div class="container">
+      <h1 id="link-about">About</h1>
+      <div class="">
+        <img src="img/mc-photo.jpg" alt="NUS Students' Computing Club" class="mc-photo img-responsive hidden-sm hidden-xs" />
+      </div>
+      <p class="lead">Join the Team</p>
+      <p>
+        Have you participated in previous Computing Club activities, and 
+        experienced first hand the great synergy running through the organisers, 
+        as well as with the participants? Do you see great experience, potential 
+        and passion in yourself, which can be put into use to further the cause of
+        your fellow faculty-mates?
+      <p>
+      <p>
+        As students of SoC, we have reaped much benefits from the efforts of the 
+        previous Computing Club Management Committees. Heed the calling to 
+        contribute, to serve and to lead. Step up, present yourself to your fellow 
+        students, and take up the challenge as the 
+        <strong>NUS Students' Computing Club 20<sup>th</sup> Management Committee</strong>.
+      </p>
 
-				<blockquote>
-					<strong>Did you know?</strong>
-					The Management Committee is officially part of the
-					<a href="https://www.comp.nus.edu.sg/programmes/ug/beyond/leadership/" target="_blank">
-					SoC Student Leadership Programme</a>. Joining the Management Committee
-					accords you service hours under the programme.
-				</blockquote>
+      <blockquote>
+        <strong>Did you know?</strong>
+        The Management Committee is officially part of the
+        <a href="https://www.comp.nus.edu.sg/programmes/ug/beyond/leadership/" target="_blank">
+        SoC Student Leadership Programme</a>. Joining the Management Committee
+        accords you service hours under the programme.
+      </blockquote>
+      
+      <p class="lead"><strong>Positions to be Filled</strong></p>
+        <blockquote>
+          <p>
+            The 20th MC General Elections has yet to begin. For our activities, please refer to our <a href="http://nuscomputing.com">club's home page</a>
+            <!-- The 20th General Elections have come to a close. For our activities, please refer to our <a href="http://nuscomputing.com">club's home page</a> -->
+            <!-- There are currently 2 open positions for this By-Elections. They are: -->
+            <!-- <ul> -->
+              <!-- <li>Director of...</li> -->
+              <!-- <li>Director of...</li> -->
+            <!-- </ul> -->
+            <!-- You may refer to the current committee website to find out more about the positions stated above -->
+          </p>
+          <!-- <a href="files/19th_mc_structure.pdf"> -->
+              <!-- <img src="img/19th_mc_structure.png" alt="Management Committee Structure" class="mc-structure-thumb img-responsive" /> -->
+          <!-- </a> -->
+        </blockquote>
+      <!-- <p>Please approach any of our current office holders for any inquiries specific to their position.</p> -->
+      <a href="#top">Back to Top</a>
+    </div>
+  </div>
 
-				
-				<p class="lead"><strong>Positions to be Filled</strong></p>
+  <div id="section-running" class="section">
+    <div class="container">
+      <h1 id="link-running">Timeline</h1>
 
-	            <blockquote>
-	                <p>
-	                	The 20th MC General Elections has yet to begin. For our activities, please refer to our <a href="http://nuscomputing.com">club's home page</a>
-	                	<!-- The 20th General Elections have come to a close. For our activities, please refer to our <a href="http://nuscomputing.com">club's home page</a> -->
-	                	<!-- There are currently 2 open positions for this By-Elections. They are: -->
-	                	<!-- <ul> -->
-	                		<!-- <li>Director of...</li> -->
-	                		<!-- <li>Director of...</li> -->
-	                	<!-- </ul> -->
-	                	<!-- You may refer to the current committee website to find out more about the positions stated above -->
-	                </p>
-	                <!-- <a href="files/19th_mc_structure.pdf"> -->
-	                    <!-- <img src="img/19th_mc_structure.png" alt="Management Committee Structure" class="mc-structure-thumb img-responsive" /> -->
-	                <!-- </a> -->
-	            </blockquote>
-				<!-- <p>Please approach any of our current office holders for any inquiries specific to their position.</p> -->
-				<a href="#top">Back to Top</a>
-			</div>
-		</div>
+      <p class="lead">20th MC General Elections</p>
+      <p>
+        This is an overview of the 20th MC General Elections process, along with important dates.
+      </p>
+      <!-- <p class="lead">20th MC By-Elections</p>
+      <p>
+        This is an overview of the by-elections process, along with important dates.
+      </p> -->
 
-		<div id="section-running" class="section">
-			<div class="container">
-				<h1 id="link-running">Timeline</h1>
+      <ul class="timeline">
 
-				<p class="lead">20th MC General Elections</p>
-				<p>
-					This is an overview of the 20th MC General Elections process, along with important dates.
-				</p>
-				<!-- <p class="lead">20th MC By-Elections</p>
-				<p>
-					This is an overview of the by-elections process, along with important dates.
-				</p> -->
-				<ul class="timeline">
-			        <!-- <li class="timeline-inverted"> -->
-			          <!-- <div class="timeline-badge success">0</div> -->
-			          <!-- <div class="timeline-panel"> -->
-			            <!-- <div class="timeline-heading"> -->
-			              <!-- <h3 class="timeline-title">Information Sessions</h3> -->
-			              <!-- <p>12 - 2pm, Mid August 2017</p> -->
-			            <!-- </div> -->
-			            <!-- <div class="timeline-body"> -->
-			              <!-- <p> -->
-			              	<!-- Designed to help club members understand what the Management Committee does over their term, the 19th Management Committee is scheduling two information sessions on the <strong>middle</strong> of August, from <strong>12noon to 2pm</strong>, to share about their past experiences. -->
-			              <!-- </p> -->
-			              <!-- <p> -->
-			              	<!-- We recommend interested club members to attend to get a better picture of the roles &amp; responsibilities of an Elected Committee Member. -->
-			              <!-- </p> -->
-			            <!-- </div> -->
-			          <!-- </div> -->
-			        <!-- </li> -->
-			        <li class="timeline-inverted">
-			          <div class="timeline-badge warning">1</div>
-			          <div class="timeline-panel">
-			            <div class="timeline-heading">
-			              <h3 class="timeline-title">Nominations</h3>
-			              <p>End August 2017</p>
-			            </div>
-			            <div class="timeline-body">
-			              <p>
-			              	Nominations period is the time for club members to sign up and step up to be a nominee in the upcoming elections.
-			              </p>
-			              <p>
-			              	Successful nominees will be allowed to campaign and garner votes for the position they are running for. <br />
-			              </p>
-			              <p>
-			              	You may submit your nominations (Form A &amp; Form B) from <strong>12pm to 2pm</strong> or <strong>4pm to 6pm</strong> at our very own
-			              	<a target="_blank" href="https://www.comp.nus.edu.sg/images/resources/content/mapsvenues/COM1_L2.jpg">Student Lounge located at COM1 02-21</a>.
-			              </p>
-			              <p>
-			              	<a href="#link-documents" style="font-weight:700;">You can find the necessary documents for nominations here</a>
-			              </p>
-			              <hr />
-			              <p>
-			              	<small>
-			              	Only <em>full-time matriculated undergraduates</em> of the School of
-			              	Computing are eligible to <strong>stand for election</strong>, 
-			              	<strong>propose</strong> or <strong>second</strong> a candidate,
-			              	and <strong>vote</strong> at the ballots.
-			              	</small>
-			              </p>
-			            </div>
-			          </div>
-			        </li>
-			        <!-- <li class="timeline-inverted"> -->
-			          <!-- <div class="timeline-badge warning">2</div> -->
-			          <!-- <div class="timeline-panel"> -->
-			            <!-- <div class="timeline-heading"> -->
-			              <!-- <h3 class="timeline-title">Meet The Advisors (MTA)</h3> -->
-			              <!-- <p>Mid August 2017</p> -->
-			            <!-- </div> -->
-			            <!-- <div class="timeline-body"> -->
-			              <!-- <p>These sessions are for our staff advisors to get to know the nominees better.</p> -->
-			              <!-- <p>Nominees will be informed of their individual MTA timeslot via email.</p> -->
-			            <!-- </div> -->
-			          <!-- </div> -->
-			        <!-- </li> -->
-			        <li>
-			          <div class="timeline-badge danger">2</div>
-			          <div class="timeline-panel">
-			            <div class="timeline-heading">
-			              <h3 class="timeline-title">Campaigning</h3>
-			              <p>Early September 2017</p>
-			            </div>
-			            <div class="timeline-body">
-			              <p>Campaigning is the period nominated nominees are allowed to garner for votes in their favour for the upcoming voting period.</p>
-			              <p>Nominees will have to adhere to the rules as indicated on our <a href="files/Election_Standing_Order.pdf" target="_blank">Election Standing Order</a>, NUS Student Conduct as well as instructions from the Elections Committee.</p>
-			            </div>
-			          </div>
-			        </li>
-			        <li class="timeline-inverted">
-			          <div class="timeline-badge info">3</div>
-			          <div class="timeline-panel">
-			            <div class="timeline-heading">
-			              <h3 class="timeline-title">Voting</h3>
-			              <p>Early September 2017</p>
-			            </div>
-			            <div class="timeline-body">
-			              <p>
-			              	<strong>The <em>Direct Elections</em> system is used</strong>.
-	      					That is, nominees will run directly for a specific position. All nominees
-	      					must obtain the approval of no less than <strong>75%</strong> of the valid votes cast for the nominee. In the 
-	      					event of a contested vote, the nominee who receives the highest number of net yes votes gets elected to the position."
-			              </p>
-			              <p>Physical paper voting will be held on our very own campus.</p>
-			              <p><strong>Timing &amp; venue(s) will be disclosed in due time.</strong></p>
-			            </div>
-			          </div>
-			        </li>
-			        <li>
-			          <div class="timeline-badge success">4</div>
-			          <div class="timeline-panel">
-			            <div class="timeline-heading">
-			              <h3 class="timeline-title">Results Announcement</h3>
-			              <p>Early September 2017</p>
-			            </div>
-			            <div class="timeline-body">
-			              <p>Upon announcement by our returning officer, the By-Elections' nominees will be deemed elected by the student population into the 20th Management Committee.</p>
-			              <!-- <hr /> -->
-			              <!-- <div class="btn-group"> -->
-			                <!-- <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-			                  <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-			                </button>  -->
-			                <!-- <ul class="dropdown-menu" role="menu"> -->
-			                  <!-- <li><a href="#">Action</a></li> -->
-			                  <!-- <li><a href="#">Another action</a></li> -->
-			                  <!-- <li><a href="#">Something else here</a></li> -->
-			                  <!-- <li class="divider"></li> -->
-			                  <!-- <li><a href="#">Separated link</a></li> -->
-			                <!-- </ul> -->
-			              <!-- </div> -->
-			            </div>
-			          </div>
-			        </li>
-			        <li class="timeline-inverted">
-			          <div class="timeline-badge">5</div>
-			          <div class="timeline-panel">
-			            <div class="timeline-heading">
-			              <h3 class="timeline-title">20th Annual General Meeting</h3>
-			              <p>Mid September 2017 *</p>
-			            </div>
-			            <div class="timeline-body">
-			              <p>
-			              	The Annual General Meeting is an annual event where our Management Commmittee position holders will be sharing their review of the past year.
-			              </p>
-			              <p><small>* Exact date and time to be confirmed</small></p>
-			            </div>
-			          </div>
-			        </li>
-			    </ul>
-				<a href="#top">Back to Top</a>
-			</div>
-		</div>
-		<div id="section-nominees" class="section">
-	      <div class="container">
-	        <h1 id="link-nominees">
-	           <!-- 20th Management Committee Nominees -->
-	           Nominations are Not Opened Yet
-	           <!-- Nominations are Closed -->
-	        </h1>
-	        <!-- <div class="row"> -->
-	        
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Jia_Yee_LIM.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Lim Jia Yee</h3> -->
-	          				<!-- <h4 class="nominee-position">Information Technology Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jia_Yee.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Jun_Weng_LIM.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Lim Jun Weng</h3> -->
-	          				<!-- <h4 class="nominee-position">Academic Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jun_Weng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Robin_LOH.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Loh Zi Bin, Robin</h3> -->
-	          				<!-- <h4 class="nominee-position">Academic Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Robin_LOH.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	        	<!-- <p class="nominee-wing">Presidential Wing</p> -->
-	 			<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	 				<!-- <div class="thumbnail"> -->
-	 					<!-- <img src="img/photos/Benjamin_LOO.jpg" class="img-responsive"/> -->
-	 					<!-- <div class="caption"> -->
-	 						<!-- <h3 class="nominee-name">Benjamin Loo Qi En</h3> -->
-	 						<!-- <h4 class="nominee-position">President<br /><small>Computing</small></h4> -->
-	 						<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Benjamin_Loo.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	 					<!-- </div> -->
-	 				<!-- </div> -->
-	 			<!-- </div> -->
-	 			<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Yongming_TAN.jpg" class="img-responsive"/> -->
-		          		<!-- <div class="caption"> -->
-		          			<!-- <h3 class="nominee-name">Tan Yongming</h3> -->
-		          			<!-- <h4 class="nominee-position">General Secretary<br /><small>Computing</small></h4> -->
-		          			<!-- <p style="text-align: center;"> -->
-		          				<!-- <a href="files/pdf_manifesto/Tan_Yongming.pdf" class="btn btn-primary" target="_blank">Manifesto</a> -->
-		          			<!-- </p> -->
-		          		<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Genevieve_TAY.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Genevieve Tay Hui Ting</h3> -->
-	          				<!-- <h4 class="nominee-position">Student Relations Secretary<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Genevieve.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Natania_DJOHARI.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Natania Djohari</h3> -->
-	          				<!-- <h4 class="nominee-position">Finance Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"> -->
-	          					<!-- <a href="files/pdf_manifesto/Natania.pdf" class="btn btn-primary" target="_blank">Manifesto</a> -->
-	          				<!-- </p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	        <!-- </div> -->
-	        <!-- <div class="row"> -->
-	        	<!-- <p class="nominee-wing">External Relations Wing</p> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Zi_Kai_NG.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Ng Zi Kai</h3> -->
-	          				<!-- <h4 class="nominee-position">Vice President, <br />External Relations<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"> -->
-	          					<!-- <a href="files/pdf_manifesto/Ng_Zi_Kai.pdf" class="btn btn-primary" target="_blank">Manifesto</a> -->
-	          				<!-- </p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Kenneth_HO.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Kenneth Ho Chee Chong</h3> -->
-	          				<!-- <h4 class="nominee-position">Alumni Relations Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Kenneth.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Mindy_SOH.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Mindy Soh</h3> -->
-	          				<!-- <h4 class="nominee-position">Marketing Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Mindy.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Ding_Feng_WONG.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Wong Ding Feng</h3> -->
-	          				<!-- <h4 class="nominee-position">Marketing Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Ding_Feng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Rebecca_TAN.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Tan Li Kiat Rebecca</h3> -->
-	          				<!-- <h4 class="nominee-position">Publicity Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Keberry.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	        <!-- </div> -->
-	        <!-- <div class="row"> -->
-	        	<!-- <p class="nominee-wing"> -->
-	        		<!-- Operations &amp; Projects Wing -->
-	        	<!-- </p> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Wei_Hao_SOH.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Soh Wei Hao</h3> -->
-	          				<!-- <h4 class="nominee-position">Vice President, <br />Operations &amp; Projects<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Wei_Hao.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Jia_Yee_LIM.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Lim Jia Yee</h3> -->
-	          				<!-- <h4 class="nominee-position">Information Technology Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jia_Yee.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Dewi_TAN.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Dewi Tan Jia Hui</h3> -->
-	          				<!-- <h4 class="nominee-position">Freshmen Orientation Projects Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Dewi.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Matthew_CHAN.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Matthew Chan Kuang Liang</h3> -->
-	          				<!-- <h4 class="nominee-position">Freshmen Orientation Projects Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Matthew.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Fabian_TAN.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Fabian Tan</h3> -->
-	          				<!-- <h4 class="nominee-position">Logistics Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Fabian.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Jun_Weng_LIM.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Lim Jun Weng</h3> -->
-	          				<!-- <h4 class="nominee-position">Logistics Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jun_Weng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	        <!-- </div> -->
-	        <!-- <div class="row"> -->
-	        	<!-- <p class="nominee-wing"> -->
-	        		<!-- Human Resource &amp; Development -->
-	        	<!-- </p> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Yong_Cheng_LOW.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Low Yong Cheng</h3> -->
-	          				<!-- <h4 class="nominee-position">Vice President, <br />Human Resource &amp; Development<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Yong_Cheng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Jun_Weng_LIM.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Lim Jun Weng</h3> -->
-	          				<!-- <h4 class="nominee-position">Academic Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jun_Weng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Darryl_LEONG.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Darryl Leong</h3> -->
-	          				<!-- <h4 class="nominee-position">Sports Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Darryl_Leong.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Shao_Qi_YEO.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Yeo Shao Qi</h3> -->
-	          				<!-- <h4 class="nominee-position">Sports Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Yeo_Shao_Qi.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	          	<!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
-	          		<!-- <div class="thumbnail"> -->
-	          			<!-- <img src="img/photos/Jasmine_ANG.jpg" class="img-responsive"/> -->
-	          			<!-- <div class="caption"> -->
-	          				<!-- <h3 class="nominee-name">Ang Hwee Lee Jasmine</h3> -->
-	          				<!-- <h4 class="nominee-position">Welfare Director<br /><small>Computing</small></h4> -->
-	          				<!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jasmine.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
-	          			<!-- </div> -->
-	          		<!-- </div> -->
-	          	<!-- </div> -->
-	        <!-- </div> -->
-	      </div>
-	    </div>
-		<div id="section-documents" class="section">
-			<div class="container">
-				<h1 id="link-documents">Documents</h1>
-				<p class="lead">Everything that is needed is here!</p>
+        <!-- ITEM 0 NOMINATIONS -->
+        <li class="timeline-inverted">
+          <div class="timeline-badge danger">0</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">Nominations Open for General Elections</h3>
+              <p>18 to 23 August 2017 (Friday to Wednesday)</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Nominations period is the time for club members to sign up and step up to be a nominee in the upcoming elections.
+              </p>
+              <p>
+                Successful nominees will be allowed to campaign and garner votes for the position they are running for. <br />
+              </p>
+              <p>
+                You may submit your nominations (Form A &amp; Form B) from <strong>12pm to 2pm</strong> or <strong>4pm to 6pm</strong> at our very own
+                <a target="_blank" href="https://www.comp.nus.edu.sg/images/resources/content/mapsvenues/COM1_L2.jpg">Student Lounge located at COM1 02-21</a>.
+              </p>
+              <p>
+                <a href="#link-documents" style="font-weight:700;">You can find the necessary documents for nominations here</a>
+              </p>
+              <hr />
+              <p>
+                <small>
+                Only <em>full-time matriculated undergraduates</em> of the School of
+                Computing are eligible to <strong>stand for election</strong>, 
+                <strong>propose</strong> or <strong>second</strong> a candidate,
+                and <strong>vote</strong> at the ballots.
+                </small>
+              </p>
+            </div>
+          </div>
+        </li>
 
-				<div class="list-group">
-					<a class="list-group-item" target="_blank" href="files/Constitution.pdf">
-						<h4 class="list-group-item-heading">Computing Club Constitution</h4>
-						<p class="list-group-item-text">The Constition of the NUS Students' Computing Club that grants the Management Committee the roles &amp; powers</p>
-					</a>
-					<a class="list-group-item" target="_blank" href="files/ElectionStandingOrders2017.pdf">
-						<h4 class="list-group-item-heading">Computing Club Election Standing Orders</h4>
-						<p class="list-group-item-text">Similar to the Constituion, this is the document that will explain how the elections will take place, as well as the rules the nominees must adhere to.</p>
-					</a>
-					<a class="list-group-item" target="_blank" href="files/NomineeApplicationFormA.docx">
-						<h4 class="list-group-item-heading">Nominee Application (Form A)</h4>
-						<p class="list-group-item-text">This is the application form for any member who wants to be nominated to become a nominee.</p>
-					</a>
-					<a class="list-group-item" target="_blank" href="files/NomineAgreementFormB.docx">
-						<h4 class="list-group-item-heading">Nominee Agreement (Form B)</h4>
-						<p class="list-group-item-text">This is the agreement form for the member to confirm his or her choice to become a nominee.</p>
-					</a>
-					<a class="list-group-item" target="_blank" href="files/ProxyVotingDelegationForm.docx">
-						<h4 class="list-group-item-heading">Proxy Agreemment (Form C)</h4>
-						<p class="list-group-item-text">This is the agreement form for any member to confirm his or her choice to delegate voting rights.</p>
-					</a>
-				</div>
+        <!-- ITEM 1 INFO SESSIONS -->
+        <li>
+          <div class="timeline-badge warning">1</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">20th MC Information Sessions</h3>
+              <p>21 and 23 August 2017 (Monday and Wednesday)</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Not sure what it means to be in the MC? Come for our information session(s) to find out more!
+              </p>
+              <p>
+                Designed to help club members understand what the Management Committee does over their term, the 19th Management Committee is scheduling two information sessions on the to share about their past experiences.
+              </p>
+              <p>
+                We recommend interested club members to attend to get a better picture of the roles &amp; responsibilities of an Elected Committee Member.
+              </p>
+            </div>
+          </div>
+        </li>
 
-				<a href="#top">Back to Top</a>
-			</div>
-		</div>
+        <!-- ITEM 2 CAMPAIGNING -->
+        <li class="timeline-inverted">
+          <div class="timeline-badge success">2</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">General Elections Campaigning</h3>
+              <p>24 to 30 August 2017</p>
+            </div>
+            <div class="timeline-body">
+              <p>Campaigning is the period nominated nominees are allowed to garner for votes in their favour for the upcoming voting period.</p>
+              <p>Nominees will have to adhere to the rules as indicated on our <a href="files/Election_Standing_Order.pdf" target="_blank">Election Standing Order</a>, NUS Student Conduct as well as instructions from the Elections Committee.</p>
+            </div>
+          </div>
+        </li>
 
-		<div id="section-questions" class="section">
-			<div class="container">
-				<h1 id="link-questions">Questions?</h1>
-				<p class="lead">
-					Just drop the Elections Committee an email at <a href="mailto:elections@nuscomputing.com">
-						elections@nuscomputing.com</a>.
-				</p>
-				<p><h4>Elections Committee:</h4></p>
-				<dl class="dl-horizontal">
-					<dt>Returning Officer:</dt>
-					<dd>Mindy Soh</dd>
-					<dt>Election Officer:</dt>
-					<dd>Caryn Heng</dd>
-					<dt>Election Officer:</dt>
-					<dd>Lim Jia Yee</dd>
-				</dl>
-				<p>Information on this page is subject to change without any prior notice.</p>
-				<p><small>Last edited on: 29th June 2017</small></p>
-				<a href="#top">Back to Top</a>
-			</div>
-		</div>
-		<script>fbq('track', 'ViewContent');</script>
-	</body>
+        <!-- ITEM 3 ADVISORS -->
+        <li>
+          <div class="timeline-badge info">3</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">Meet The Advisors (MTA)</h3>
+              <p>28 to 30 August 2017 (Monday to Wednesday)</p>
+            </div>
+            <div class="timeline-body">
+              <p>These sessions are for our staff advisors to get to know the nominees better.</p>
+              <p>Nominees will be informed of their individual MTA timeslot via email.</p>
+            </div>
+          </div>
+        </li>
+        
+        <!-- ITEM 4 VOTING -->
+        <li class="timeline-inverted">
+          <div class="timeline-badge primary">4</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">General Elections Voting</h3>
+              <p>31 August to 1 September 2017 (Thursday to Friday)</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                <strong>The <em>Direct Elections</em> system is used</strong>.
+            That is, nominees will run directly for a specific position. All nominees
+            must obtain the approval of no less than <strong>75%</strong> of the valid votes cast for the nominee. In the 
+            event of a contested vote, the nominee who receives the highest number of net yes votes gets elected to the position."
+              </p>
+              <p>Physical paper voting will be held on our very own campus.</p>
+              <p><strong>Timing &amp; venue(s) will be disclosed in due time.</strong></p>
+            </div>
+          </div>
+        </li>
+
+        <!-- ITEM 5 VOTING RESULTS -->
+        <li>
+          <div class="timeline-badge">5</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">General Elections Voting Results</h3>
+              <p>1 September 2017</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Upon announcement by our returning officer, the General Elections' nominees will be deemed elected by the student population into the 20th Management Committee.
+              </p>
+              <!-- <hr /> -->
+              <!-- <div class="btn-group"> -->
+                <!-- <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                  <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                </button>  -->
+                <!-- <ul class="dropdown-menu" role="menu"> -->
+                  <!-- <li><a href="#">Action</a></li> -->
+                  <!-- <li><a href="#">Another action</a></li> -->
+                  <!-- <li><a href="#">Something else here</a></li> -->
+                  <!-- <li class="divider"></li> -->
+                  <!-- <li><a href="#">Separated link</a></li> -->
+                <!-- </ul> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </li>
+
+        <!-- ITEM 6 NOMINATIONS (BY-ELECTIONS) -->
+        <!-- <li class="timeline-inverted">
+          <div class="timeline-badge danger">6</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">Nominations Open for By-Elections</h3>
+              <p>4 to 6 September 2017 *</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                The Annual General Meeting is an annual event where our Management Commmittee position holders will be sharing their review of the past year.
+              </p>
+              <p><small>* Exact date and time to be confirmed</small></p>
+            </div>
+          </div>
+        </li> -->
+
+        <!-- ITEM 7 VOTING (BY-ELECTIONS) -->
+        <!-- <li class="timeline-inverted">
+          <div class="timeline-badge warning">7</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">By-Elections Voting</h3>
+              <p>7 to 8 September 2017 (Thursday to Friday)</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                <strong>The <em>Direct Elections</em> system is used</strong>.
+            That is, nominees will run directly for a specific position. All nominees
+            must obtain the approval of no less than <strong>75%</strong> of the valid votes cast for the nominee. In the 
+            event of a contested vote, the nominee who receives the highest number of net yes votes gets elected to the position."
+              </p>
+              <p>Physical paper voting will be held on our very own campus.</p>
+              <p><strong>Timing &amp; venue(s) will be disclosed in due time.</strong></p>
+            </div>
+          </div>
+        </li> -->
+
+        <!-- ITEM 8 VOTING RESULTS -->
+        <!-- <li>
+          <div class="timeline-badge success">8</div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">By-Elections Voting Results</h3>
+              <p>8 September 2017</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Upon announcement by our returning officer, the By-Elections' nominees will be deemed elected by the student population into the 20th Management Committee.
+              </p>
+            </div>
+          </div>
+        </li> -->
+
+        <li class="timeline-inverted">
+          <div class="timeline-badge info">6</div> <!-- 9 if there is by-elections -->
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3 class="timeline-title">20th Annual General Meeting</h3>
+              <p>21 September 2017 *</p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                The Annual General Meeting is an annual event where our Management Commmittee position holders will be sharing their review of the past year.
+              </p>
+              <p><small>* To be confirmed</small></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <a href="#top">Back to Top</a>
+    </div>
+  </div>
+  <div id="section-nominees" class="section">
+      <div class="container">
+        <h1 id="link-nominees">
+           <!-- 20th Management Committee Nominees -->
+           Nominations are Not Opened Yet
+           <!-- Nominations are Closed -->
+        </h1>
+        <!-- <div class="row"> -->
+        
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Jia_Yee_LIM.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Lim Jia Yee</h3> -->
+                  <!-- <h4 class="nominee-position">Information Technology Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jia_Yee.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Jun_Weng_LIM.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Lim Jun Weng</h3> -->
+                  <!-- <h4 class="nominee-position">Academic Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jun_Weng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Robin_LOH.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Loh Zi Bin, Robin</h3> -->
+                  <!-- <h4 class="nominee-position">Academic Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Robin_LOH.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+          <!-- <p class="nominee-wing">Presidential Wing</p> -->
+      <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+        <!-- <div class="thumbnail"> -->
+          <!-- <img src="img/photos/Benjamin_LOO.jpg" class="img-responsive"/> -->
+          <!-- <div class="caption"> -->
+            <!-- <h3 class="nominee-name">Benjamin Loo Qi En</h3> -->
+            <!-- <h4 class="nominee-position">President<br /><small>Computing</small></h4> -->
+            <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Benjamin_Loo.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+      <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Yongming_TAN.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Tan Yongming</h3> -->
+                  <!-- <h4 class="nominee-position">General Secretary<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"> -->
+                    <!-- <a href="files/pdf_manifesto/Tan_Yongming.pdf" class="btn btn-primary" target="_blank">Manifesto</a> -->
+                  <!-- </p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Genevieve_TAY.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Genevieve Tay Hui Ting</h3> -->
+                  <!-- <h4 class="nominee-position">Student Relations Secretary<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Genevieve.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Natania_DJOHARI.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Natania Djohari</h3> -->
+                  <!-- <h4 class="nominee-position">Finance Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"> -->
+                    <!-- <a href="files/pdf_manifesto/Natania.pdf" class="btn btn-primary" target="_blank">Manifesto</a> -->
+                  <!-- </p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+          <!-- <p class="nominee-wing">External Relations Wing</p> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Zi_Kai_NG.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Ng Zi Kai</h3> -->
+                  <!-- <h4 class="nominee-position">Vice President, <br />External Relations<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"> -->
+                    <!-- <a href="files/pdf_manifesto/Ng_Zi_Kai.pdf" class="btn btn-primary" target="_blank">Manifesto</a> -->
+                  <!-- </p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Kenneth_HO.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Kenneth Ho Chee Chong</h3> -->
+                  <!-- <h4 class="nominee-position">Alumni Relations Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Kenneth.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Mindy_SOH.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Mindy Soh</h3> -->
+                  <!-- <h4 class="nominee-position">Marketing Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Mindy.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Ding_Feng_WONG.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Wong Ding Feng</h3> -->
+                  <!-- <h4 class="nominee-position">Marketing Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Ding_Feng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Rebecca_TAN.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Tan Li Kiat Rebecca</h3> -->
+                  <!-- <h4 class="nominee-position">Publicity Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Keberry.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+          <!-- <p class="nominee-wing"> -->
+            <!-- Operations &amp; Projects Wing -->
+          <!-- </p> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Wei_Hao_SOH.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Soh Wei Hao</h3> -->
+                  <!-- <h4 class="nominee-position">Vice President, <br />Operations &amp; Projects<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Wei_Hao.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Jia_Yee_LIM.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Lim Jia Yee</h3> -->
+                  <!-- <h4 class="nominee-position">Information Technology Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jia_Yee.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Dewi_TAN.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Dewi Tan Jia Hui</h3> -->
+                  <!-- <h4 class="nominee-position">Freshmen Orientation Projects Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Dewi.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Matthew_CHAN.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Matthew Chan Kuang Liang</h3> -->
+                  <!-- <h4 class="nominee-position">Freshmen Orientation Projects Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Matthew.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Fabian_TAN.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Fabian Tan</h3> -->
+                  <!-- <h4 class="nominee-position">Logistics Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Fabian.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Jun_Weng_LIM.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Lim Jun Weng</h3> -->
+                  <!-- <h4 class="nominee-position">Logistics Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jun_Weng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+          <!-- <p class="nominee-wing"> -->
+            <!-- Human Resource &amp; Development -->
+          <!-- </p> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Yong_Cheng_LOW.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Low Yong Cheng</h3> -->
+                  <!-- <h4 class="nominee-position">Vice President, <br />Human Resource &amp; Development<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Yong_Cheng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Jun_Weng_LIM.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Lim Jun Weng</h3> -->
+                  <!-- <h4 class="nominee-position">Academic Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jun_Weng.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Darryl_LEONG.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Darryl Leong</h3> -->
+                  <!-- <h4 class="nominee-position">Sports Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Darryl_Leong.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Shao_Qi_YEO.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Yeo Shao Qi</h3> -->
+                  <!-- <h4 class="nominee-position">Sports Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Yeo_Shao_Qi.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-sm-6 col-md-6 col-lg-4"> -->
+              <!-- <div class="thumbnail"> -->
+                <!-- <img src="img/photos/Jasmine_ANG.jpg" class="img-responsive"/> -->
+                <!-- <div class="caption"> -->
+                  <!-- <h3 class="nominee-name">Ang Hwee Lee Jasmine</h3> -->
+                  <!-- <h4 class="nominee-position">Welfare Director<br /><small>Computing</small></h4> -->
+                  <!-- <p style="text-align: center;"><a href="files/pdf_manifesto/Jasmine.pdf" class="btn btn-primary" target="_blank">Manifesto</a></p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  <div id="section-documents" class="section">
+    <div class="container">
+      <h1 id="link-documents">Documents</h1>
+      <p class="lead">Everything that is needed is here!</p>
+
+      <div class="list-group">
+        <a class="list-group-item" target="_blank" href="files/Constitution.pdf">
+          <h4 class="list-group-item-heading">Computing Club Constitution</h4>
+          <p class="list-group-item-text">The Constition of the NUS Students' Computing Club that grants the Management Committee the roles &amp; powers</p>
+        </a>
+        <a class="list-group-item" target="_blank" href="files/ElectionStandingOrders2017.pdf">
+          <h4 class="list-group-item-heading">Computing Club Election Standing Orders</h4>
+          <p class="list-group-item-text">Similar to the Constituion, this is the document that will explain how the elections will take place, as well as the rules the nominees must adhere to.</p>
+        </a>
+        <a class="list-group-item" target="_blank" href="files/NomineeApplicationFormA.docx">
+          <h4 class="list-group-item-heading">Nominee Application (Form A)</h4>
+          <p class="list-group-item-text">This is the application form for any member who wants to be nominated to become a nominee.</p>
+        </a>
+        <a class="list-group-item" target="_blank" href="files/NomineAgreementFormB.docx">
+          <h4 class="list-group-item-heading">Nominee Agreement (Form B)</h4>
+          <p class="list-group-item-text">This is the agreement form for the member to confirm his or her choice to become a nominee.</p>
+        </a>
+        <a class="list-group-item" target="_blank" href="files/ProxyVotingDelegationForm.docx">
+          <h4 class="list-group-item-heading">Proxy Agreemment (Form C)</h4>
+          <p class="list-group-item-text">This is the agreement form for any member to confirm his or her choice to delegate voting rights.</p>
+        </a>
+      </div>
+
+      <a href="#top">Back to Top</a>
+    </div>
+  </div>
+
+  <div id="section-questions" class="section">
+    <div class="container">
+      <h1 id="link-questions">Questions?</h1>
+      <p class="lead">
+        Just drop the Elections Committee an email at <a href="mailto:elections@nuscomputing.com">
+          elections@nuscomputing.com</a>.
+      </p>
+      <p><h4>Elections Committee:</h4></p>
+      <dl class="dl-horizontal">
+        <dt>Returning Officer:</dt>
+        <dd>Mindy Soh</dd>
+        <dt>Election Officer:</dt>
+        <dd>Caryn Heng</dd>
+        <dt>Election Officer:</dt>
+        <dd>Lim Jia Yee</dd>
+      </dl>
+      <p>Information on this page is subject to change without any prior notice.</p>
+      <p><small>Last edited on: 1st July 2017</small></p>
+      <a href="#top">Back to Top</a>
+    </div>
+  </div>
+  <script>fbq('track', 'ViewContent');</script>
+</body>
 </html>
