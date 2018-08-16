@@ -163,11 +163,23 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-#section-nominees div.row > div  {
-  margin-bottom: 20px;
+#section-nominees .nominees-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#section-nominees .thumbnail .caption > h3 {
+#section-nominees .nominees-container .thumbnail {
+  margin: 20px 20px 0 20px;
+}
+
+#section-nominees .nominees-container .thumbnail img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#section-nominees .nominees-container .thumbnail .caption > h3 {
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
@@ -176,20 +188,6 @@ h1, h2, h3, h4, h5, h6 {
 #link-nominees {
   text-align: center; 
   font-weight: 700;
-}
-
-.thumbnail {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.thumbnail > img {
-  width: 100%; 
-  height: 100%; 
-  max-width: 480px; 
-  max-height: 480px; 
-  display: block; 
-  margin: 0 auto;
 }
 
 .nominee-wing {
@@ -207,10 +205,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#section-nominees .thumbnail {
-    height: 50rem;
-}
-
 #section-documents {
   background: url('../img/patterns/diamond_upholstery.png');
 }
@@ -218,49 +212,6 @@ h1, h2, h3, h4, h5, h6 {
 #section-questions {
   background: url('../img/patterns/crissXcross.png');
   color: #fafafa;
-}
-
-@media (min-width: 992px) {
-  #section-nominees .thumbnail > img {
-    max-width: 300px;
-    max-height: 300px;
-  }
-}
-
-@media (max-width: 991px) and (min-width: 767px) {
-  #section-nominees .thumbnail > img {
-    max-width: 275px;
-    max-height: 275px;
-  }
-  #section-nominees .thumbnail {
-      height: 45rem;
-  }
-}
-
-@media (max-width: 766px) {
-  #section-nominees .thumbnail {
-      height: auto;
-  }
-}
-
-@media (max-width: 400px) and (min-width: 300px) {
-  #section-nominees .thumbnail > img {
-    max-width: 300px;
-    max-height: 300px;
-  }
-}
-
-@media (max-width: 300px) and (min-width: 200px) {
-  #section-nominees .thumbnail > img {
-    max-width: 200px;
-    max-height: 200px;
-  }
-}
-
-@media (max-width: 1199px) {
-  #section-nominees .thumbnail .caption > p {
-    font-size: 1em;
-  }
 }
 
 @media (max-width: 768px) {
