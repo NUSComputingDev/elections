@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 #section-nominees .nominees-container .thumbnail img {
   height: 300px;
   width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 #section-nominees .nominees-container .thumbnail .caption > h3 {
