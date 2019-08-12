@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-positions .mc-structure {
-  max-width: 350px;
+  width: 100%;
   border: solid 5px #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   margin-bottom: 20px;
@@ -274,6 +274,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .timeline-title, .subtitle {
+    overflow-wrap: break-word;
+  }
+
   .section {
     padding: 40px 20px;
   }
@@ -291,6 +295,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
   }
 
+  .mc-photo {
+    width: 100%;
+  }
+
   #elections-logo .sixteenth {
     font-size: 10em;
   }
@@ -305,6 +313,10 @@ h1, h2, h3, h4, h5, h6 {
 
   #elections-logo .ge {
     font-size: 2.55em;
+  }
+
+  .text-right {
+    text-align: left!important;
   }
 }
 
