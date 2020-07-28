@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 #menu li a:hover {
   text-decoration: none;
   text-shadow: 0 0 10px #fff;
-  
+
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -106,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu li:hover {
   margin: 0 20px;
-  
+
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
-  
+
   transform: scale(1.5, 1.5);
   -webkit-transform: scale(1.5, 1.5);
   -moz-transform: scale(1.5, 1.5);
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   border: solid 5px #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   margin: 20px;
-  
+
   transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #link-nominees {
-  text-align: center; 
+  text-align: center;
   font-weight: 700;
 }
 
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nominee-name {
-  display: block; 
+  display: block;
   text-align: center;
 }
 
@@ -267,10 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-questions {
-  /*background: url('../img/patterns/crissXcross.png');*/
-  /*color: #fafafa;*/
-  color: #ffffff;
-  background: #000000;
+  background: url(../img/patterns/diamond_upholstery.png);
 }
 
 @media (max-width: 768px) {
@@ -322,13 +319,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(max-width: 768px) {
   #menu li.divider {
-    display: none; 
+    display: none;
   }
 }
 
 @media(min-width: 769px) {
   #menu li.divider {
-    display: inline; 
+    display: inline;
   }
 }
 
